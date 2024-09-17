@@ -299,7 +299,7 @@ echo "Replacement and renaming complete."
 
 
 # Process specific file types
-for ext in mm m kt java js tsx h md podspec json podfilef; do
+for ext in mm m kt java js tsx h md podspec json gradle podfilef; do
     process_files "$ext"
 done
 
